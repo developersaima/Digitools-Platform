@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="navbar-end gap-4">
         <ShoppingCart className="cursor-pointer" />
         <a href="#" className="hover:text-purple-600">Login</a>
-        <button className="btn btn-primary">Get Started</button>
+        <button className="btn btn-primary rounded-full">Get Started</button>
       </div>
     </div>
   );
