@@ -8,7 +8,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="py-12 md:py-20 bg-custom-gradient text-white">
+    <section className="py-12 md:py-20 bg-gradient-to-r from-purple-600 to-pink-500 text-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           
