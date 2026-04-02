@@ -1,18 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## DigiTools Platform
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Overview
 
-## React Compiler
+DigiTools Platform is a simple and user-friendly web application that provides a collection of useful digital tools in one place. The goal of this project is to make everyday tasks easier by offering tools with a clean interface and smooth user experience.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Description
 
-## Expanding the ESLint configuration
+This project is built as part of an assignment where the focus was on creating a functional and responsive platform using modern frontend technologies. Users can explore different tools, interact with them, and manage their selections easily.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* HTML
+* CSS
+* Tailwind CSS
+* JavaScript
+* React.js
+* Vite
+
+---
+
+## Key Features
+
+### 1. Multiple Tools in One Platform
+
+Users can access different digital tools from a single interface without switching between websites.
+
+### 2. Add to Cart Functionality
+
+Users can select tools and add them to a cart system, making interaction more dynamic and organized.
+
+### 3. Fast and Responsive UI
+
+The platform is optimized for speed and responsiveness, ensuring smooth performance across devices.
+
+---
+
+## Live Website
+ [https://digitools-platform-saima.netlify.app/](https://digitools-platform-saima.netlify.app/)
+
+---
+
+## Repository
+ [https://github.com/developersaima/Github-Issue-Tracker](https://github.com/developersaima/Github-Issue-Tracker) *(replace with your actual repo link if different)*
+
+---
+
+##  Author
+
+**Saima Akter**
+Frontend Developer
+
