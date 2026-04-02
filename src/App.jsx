@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import StatsSection from './components/StatsSection'
-import ToolsSection from './components/ToolsSection'
+import ToolsSection from './components/ProductSection'
 
 const fetchProductData = async () => {
   const res = (await fetch("/data.json")).json();
