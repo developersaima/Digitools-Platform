@@ -5,6 +5,7 @@ import StatsSection from './components/StatsSection'
 import ToolsSection from './components/ProductSection'
 import GetStarted from './components/GetStarted'
 import PricingSection from './components/Transparent'
+import Workflow from './components/Workflow'
 
 const fetchProductData = async () => {
   const res = (await fetch("/data.json")).json();
@@ -61,6 +62,7 @@ const App = () => {
         />
         <GetStarted/>
         <PricingSection/>
+        <Workflow/>
     </div>
 
   )
