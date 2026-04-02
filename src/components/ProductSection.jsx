@@ -105,7 +105,7 @@ const ToolsSection = ({
   checkOut,
 }) => {
   return (
-    <section className="py-10" id="products">
+    <section className="py-10 max-w-7xl mx-auto" id="products">
       <h1 className="text-3xl font-bold text-center mb-2">
         Premium Digital Tools
       </h1>

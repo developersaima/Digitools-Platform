@@ -2,9 +2,9 @@ import React from "react";
 import digitools from "../assets/picture/DigiTools.png";
 import { ShoppingCart } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({cartItem}) => {
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4">
+    <div className="navbar fixed top-0 right-0 left-0 z-10 px-4 bg-base-100 shadow-sm px-4">
       
       {/* Left */}
       <div className="navbar-start">
@@ -40,8 +40,13 @@ const Navbar = () => {
       </div>
 
       {/* Right */}
-      <div className="navbar-end gap-4">
-        <ShoppingCart className="cursor-pointer" />
+      <div className="navbar-end gap-4 ">
+        <div className="relative">
+          <ShoppingCart className="cursor-pointer" />
+          <span className="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center absolute -top-2 -right-2 text-white text-[12px] ">
+            {cartItem.length}
+          </span>
+        </div>
         <a href="#" className="hover:text-purple-600">Login</a>
         <button className="btn btn-primary rounded-full">Get Started</button>
       </div>

@@ -6,6 +6,9 @@ import ToolsSection from './components/ProductSection'
 import GetStarted from './components/GetStarted'
 import PricingSection from './components/Transparent'
 import Workflow from './components/Workflow'
+import Footer from './components/Footer'
+import { toast, ToastContainer } from 'react-toastify'
+
 
 const fetchProductData = async () => {
   const res = (await fetch("/data.json")).json();
@@ -48,7 +51,7 @@ const App = () => {
   };
   return (
     <div >
-      <Navbar> </Navbar>
+      <Navbar  cartItem={cartItem}> </Navbar>
        <Banner></Banner> 
     <StatsSection></StatsSection>
     <ToolsSection
@@ -63,6 +66,12 @@ const App = () => {
         <GetStarted/>
         <PricingSection/>
         <Workflow/>
+        <Footer/>
+
+
+
+
+        <ToastContainer />
     </div>
 
   )
