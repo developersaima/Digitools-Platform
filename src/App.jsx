@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import StatsSection from './components/StatsSection'
 import ToolsSection from './components/ProductSection'
 import GetStarted from './components/GetStarted'
+import PricingSection from './components/Transparent'
 
 const fetchProductData = async () => {
   const res = (await fetch("/data.json")).json();
@@ -59,6 +60,7 @@ const App = () => {
           checkOut={checkOut}
         />
         <GetStarted/>
+        <PricingSection/>
     </div>
 
   )
